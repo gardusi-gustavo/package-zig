@@ -1,0 +1,18 @@
+{
+  "rank": "2.2",
+  "title": "Add fuzz tests",
+  "context": "Parser boundaries are untested.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Add a small fuzz target for the text helpers.",
+    "expected_outcome": "Fuzz failures are reproducible.",
+    "acceptance_criteria": [
+      "Fuzzing is documented",
+      "A seed corpus is included"
+    ]
+  },
+  "attempts": []
+}

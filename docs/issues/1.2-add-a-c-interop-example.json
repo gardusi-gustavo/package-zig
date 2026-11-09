@@ -1,0 +1,18 @@
+{
+  "rank": "1.2",
+  "title": "Add a C interop example",
+  "context": "C interop is a core Zig strength.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Add a small C header import and test.",
+    "expected_outcome": "The example builds on Linux.",
+    "acceptance_criteria": [
+      "C interop compiles",
+      "No platform-specific secrets"
+    ]
+  },
+  "attempts": []
+}

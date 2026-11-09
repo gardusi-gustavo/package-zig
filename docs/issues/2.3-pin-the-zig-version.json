@@ -1,0 +1,18 @@
+{
+  "rank": "2.3",
+  "title": "Pin the Zig version",
+  "context": "Zig APIs change between releases.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Pin the Zig version in CI and docs.",
+    "expected_outcome": "CI and docs use the same version.",
+    "acceptance_criteria": [
+      "Version is pinned",
+      "Upgrade policy is documented"
+    ]
+  },
+  "attempts": []
+}

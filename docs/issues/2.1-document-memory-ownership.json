@@ -1,0 +1,18 @@
+{
+  "rank": "2.1",
+  "title": "Document memory ownership",
+  "context": "Zig ownership rules need explicit docs.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Document allocation and deallocation in every public function.",
+    "expected_outcome": "Consumers know who frees memory.",
+    "acceptance_criteria": [
+      "Ownership is documented",
+      "Tests cover it"
+    ]
+  },
+  "attempts": []
+}

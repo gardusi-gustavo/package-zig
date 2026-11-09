@@ -1,0 +1,18 @@
+{
+  "rank": "1.1",
+  "title": "Add an allocator-neutral API",
+  "context": "The first API takes an allocator explicitly.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Document and test arena and page allocator use.",
+    "expected_outcome": "Callers can choose an allocator safely.",
+    "acceptance_criteria": [
+      "Arena example passes",
+      "Ownership is documented"
+    ]
+  },
+  "attempts": []
+}
